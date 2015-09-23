@@ -6,6 +6,7 @@
 body{
 	background-image: url('https://s3.amazonaws.com/myfangate.com/tcmfreesong/background.jpg');
 	background-repeat: repeat;
+	font-family: 'AkzidenzGroteskBE-MdCn';
 }
 .cta{	
 	z-index: 99999;
@@ -23,12 +24,21 @@ body{
 	width: 100%;
 	text-transform: uppercase;
 	border-radius: 0;
-	font-size: 20px;	
+	font-size: 25px;	
+	letter-spacing: 1px;
 }
 .form-control{
 	border-radius: 0;
-	font-size: 15px;	
+	font-size: 20px;
+	letter-spacing: 1px;	
 }
 .ss-question-list{
 	margin-left: 0 !important;
+}
+.btn-success, .form-control{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+#ss-form{
+	background-color: white;
+	padding: 20px;
 }
