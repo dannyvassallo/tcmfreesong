@@ -7,3 +7,15 @@ body{
 	background-image: url('https://s3.amazonaws.com/myfangate.com/tcmfreesong/background.jpg');
 	background-repeat: repeat;
 }
+.cta{	
+	z-index: 99999;
+	position: absolute;
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 100%;
+	text-align: center;
+	top: 10px;
+	img{
+		max-width: 650px;
+	}
+}
