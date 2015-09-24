@@ -11,9 +11,9 @@
     <%= stylesheet_link_tag "all" %>
   </head>
 
-  <body class="<%= page_classes %>">
-    <%= partial "partials/navbar" %>
+  <body class="<%= page_classes %>">    
     <%= yield %>
+    <%= partial 'partials/footer' %>
 
     <!-- Javascripts -->
     <%= javascript_include_tag  "all" %>
